@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Music Auto Player</string>
+    
+    <!-- 通用 -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    
+    <!-- 設定 -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese_traditional">Traditional Chinese</string>
+    <string name="language_chinese_simplified">Simplified Chinese</string>
+    
+    <!-- 樂譜相關 -->
+    <string name="sheet_name">Sheet Name</string>
+    <string name="sheet_description">Description</string>
+    <string name="import_sheet">Import Sheet</string>
+    <string name="export_sheet">Export Sheet</string>
+    <string name="share_sheet">Share Sheet</string>
+    <string name="delete_sheet">Delete Sheet</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    
+    <!-- 訊息 -->
+    <string name="import_success">Import Successful</string>
+    <string name="import_failed">Import Failed: %1$s</string>
+    <string name="export_success">Export Successful</string>
+    <string name="export_failed">Export Failed: %1$s</string>
+    
+    <!-- 免責聲明 -->
+    <string name="disclaimer_title">Legal Disclaimer</string>
+    <string name="disclaimer_accept">I Accept</string>
+    <string name="disclaimer_decline">Decline</string>
+    <string name="disclaimer_content">This application is intended for educational and research purposes only. By using this application, you acknowledge and agree to the following:\n\n
+         1. This app is designed to demonstrate music automation technology.\n\n
+         2. Users are responsible for complying with all applicable game rules and terms of service.\n\n
+         3. The developers are not responsible for any consequences resulting from misuse of this application.\n\n
+         4. This app should not be used to gain unfair advantages in games or violate any terms of service.\n\n
+         5. Some games may prohibit the use of automation tools. Please check the rules before use.</string>
+    <string name="disclaimer_warning">Warning</string>
+    <string name="disclaimer_warning_message">Improper use may violate game rules and result in account penalties.</string>
+</resources> 

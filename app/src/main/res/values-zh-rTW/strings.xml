@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">音樂自動演奏</string>
+    
+    <!-- 通用 -->
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    <string name="save">儲存</string>
+    <string name="delete">刪除</string>
+    
+    <!-- 設定 -->
+    <string name="settings">設定</string>
+    <string name="language">語言</string>
+    <string name="language_english">英文</string>
+    <string name="language_chinese_traditional">繁體中文</string>
+    <string name="language_chinese_simplified">簡體中文</string>
+    
+    <!-- 樂譜相關 -->
+    <string name="sheet_name">樂譜名稱</string>
+    <string name="sheet_description">描述</string>
+    <string name="import_sheet">匯入樂譜</string>
+    <string name="export_sheet">匯出樂譜</string>
+    <string name="share_sheet">分享樂譜</string>
+    <string name="delete_sheet">刪除樂譜</string>
+    <string name="scan_qr_code">掃描 QR 碼</string>
+    
+    <!-- 訊息 -->
+    <string name="import_success">匯入成功</string>
+    <string name="import_failed">匯入失敗：%1$s</string>
+    <string name="export_success">匯出成功</string>
+    <string name="export_failed">匯出失敗：%1$s</string>
+    
+    <!-- 免責聲明 -->
+    <string name="disclaimer_title">法律免責聲明</string>
+    <string name="disclaimer_accept">我同意</string>
+    <string name="disclaimer_decline">不同意</string>
+    <string name="disclaimer_content">本應用程式僅供教育和研究目的使用。使用本應用程式即表示您確認並同意以下條款：\n\n
+        1. 本應用程式旨在展示音樂自動化技術。\n\n
+        2. 使用者有責任遵守所有適用的遊戲規則和服務條款。\n\n
+        3. 開發者對於不當使用本應用程式所造成的任何後果概不負責。\n\n
+        4. 本應用程式不應被用於在遊戲中獲取不公平優勢或違反任何服務條款。\n\n
+        5. 某些遊戲可能禁止使用自動化工具，使用前請確認相關規則。</string>
+    <string name="disclaimer_warning">警告</string>
+    <string name="disclaimer_warning_message">不當使用可能違反遊戲規則並導致帳號懲處。</string>
+</resources> 

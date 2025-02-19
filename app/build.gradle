@@ -1,0 +1,50 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    namespace 'com.musicautoplayer'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.musicautoplayer"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    
+    // MIDI 支援
+    implementation 'com.mobileer:midi:1.0.0'
+    
+    // QR Code 生成
+    implementation 'com.google.zxing:core:3.5.2'
+    // QR Code 掃描
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    // 檔案壓縮
+    implementation 'org.apache.commons:commons-compress:1.24.0'
+} 
